@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Apparel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .apparel-container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .apparel-container h2 {
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .apparel-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .apparel-container label {
+            text-align: left;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .apparel-container input,
+        .apparel-container select {
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .apparel-container button {
+            padding: 0.75rem;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .apparel-container button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="apparel-container">
+        <h2>Add Apparel</h2>
+        <form method="post" action="addApparel">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="">-- Select Category --</option>
+                <option value="torn-out">Torn-out</option>
+                <option value="unused">Unused</option>
+            </select>
+            <label for="type">Type:</label>
+            <select id="type" name="type" required>
+                <option value="">-- Select Type --</option>
+                <option value="disposal">Disposal</option>
+                <option value="recycler">Recycler</option>
+                <option value="donation">Donation</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apparel Management</title>
+    <link
+            rel="icon"
+            href="https://cdn-icons-png.freepik.com/512/10275/10275817.png"
+            type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .hero {
+            background-color: #f0f0f0;
+            height: 480px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            text-align: center;
+            padding: 1rem;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        .hero-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-content p {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-content .details {
+            text-align: left;
+            margin-bottom: 1rem;
+        }
+
+        .hero-content .details h2 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-content .details ul {
+            list-style: disc;
+            padding-left: 1.5rem;
+        }
+
+        .hero-content button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero-content button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer .contact-info {
+            margin-bottom: 0.5rem;
+        }
+
+        footer .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+        }
+
+        footer .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Apparel Management</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/addApparel">Add Apparel</a></li>
+                <li><a href="/viewApparel">View Apparel</a></li>
+                <!--<li><a href="/logout">Logout</a></li>-->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Apparel Management</h1>
+                <p>Submit your unused or worn-out apparel for proper disposal, donation, or recycling.</p>
+                <div class="details">
+                    <h2>Intended Audience</h2>
+                    <p>Our platform is designed for environmentally conscious individuals looking to dispose of their apparel responsibly.</p>
+                    <h2>Features</h2>
+                    <ul>
+                        <li>Easy submission of apparel details</li>
+                        <li>Options for disposal, donation, or recycling</li>
+                        <li>Track the status of your submissions</li>
+                        <li>Connect with local donation centers</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p>For inquiries, contact us at:</p>
+        </div>
+        <div class="social-icons">
+            <a href="mailto:s6400192@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+919431679589"><i class="fas fa-phone"></i></a>
+            <a href="https://www.instagram.com/shiv.alax108" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/justicenet" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2024 Apparel Management. All rights reserved.</p>
+    </footer>
+</body>
+<script>
+    /*function toggleSignout() {
+        var signout = document.getElementById("signout");
+        if (signout.style.display === "none") {
+            signout.style.display = "block";
+        } else {
+            signout.style.display = "none";
+        }
+    }*/
+</script>
+</html>
