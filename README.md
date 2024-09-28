@@ -51,12 +51,19 @@ The Apparel Management System is a web application designed to help users manage
 
 You can access the repository [here](https://github.com/santosh4568/ApparelManagement).
 
+## Admin credentials
+
+- **Username** : admin
+- **Password** : admin
+  
+  You can enter the above credentials to login as Admin.
+
 ## Contact
 
 For any inquiries, please contact:
 - **Email**: s6400192@gmail.com
 - **Phone**: +919431679589
 - **Instagram**: [shiv.alax108](https://www.instagram.com/shiv.alax108)
-- **Facebook**: [justicenet](https://www.facebook.com/)
+- **Facebook**: [ApparelManagement](https://www.facebook.com/)
 
 &copy; 2024 Apparel Management. All rights reserved.
