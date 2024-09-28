@@ -2,7 +2,7 @@
 
 ## Description
 
-The Apparel Management System is a web application designed to help users manage their apparel by providing options for disposal, donation, or recycling. The platform is environmentally conscious and aims to connect users with local donation centers.
+The Apparel Management System is a web application designed to help users manage their apparel by providing options for disposal, donation, or recycling. The platform is environmentally conscious and aims to connect users with local donation centers.This system has developed using Spring Boot framework in java.
 
 ## Features
 
@@ -27,24 +27,30 @@ The Apparel Management System is a web application designed to help users manage
 1. **Ensure you have Java and Maven installed**:
     - Java 8 or higher
     - Maven 3.6.0 or higher
+    - MySql database
 
 2. **Clone the Repository**:
     ```bash
     git clone https://github.com/santosh4568/ApparelManagement.git
     cd ApparelManagement
     ```
+    
+3. **Database Configuration**:
 
-3. **Build the Project**:
+   You have to update ```bash src/main/resources/application.properties ``` file .
+   Update username and password with your credentials.
+
+4. **Build the Project**:
     ```bash
     mvn clean install
     ```
-
-4. **Run the Application**:
+    
+5. **Run the Application**:
     ```bash
     mvn spring-boot:run
     ```
 
-5. **Access the Application**:
+6. **Access the Application**:
     Open your web browser and navigate to `http://localhost:8080`.
 
 ## Repository Link
