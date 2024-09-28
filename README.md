@@ -61,7 +61,7 @@ You can access the repository [here](https://github.com/santosh4568/ApparelManag
 ## Contact
 
 For any inquiries, please contact:
-- **Email**: s6400192@gmail.com
+- **Email**: sk5580655@gmail.com
 - **Phone**: +919431679589
 - **Instagram**: [shiv.alax108](https://www.instagram.com/shiv.alax108)
 - **Facebook**: [ApparelManagement](https://www.facebook.com/)
