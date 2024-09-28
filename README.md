@@ -2,7 +2,7 @@
 
 ## Description
 
-The Apparel Management System is a web application designed to help users manage their apparel by providing options for disposal, donation, or recycling. The platform is environmentally conscious and aims to connect users with local donation centers.This system has developed using Spring Boot framework in java.
+The Apparel Management System is a Spring boot based web application designed to help users manage their apparel by providing options for disposal, donation, or recycling. The platform is environmentally conscious and aims to connect users with local donation centers.
 
 ## Features
 
@@ -37,7 +37,7 @@ The Apparel Management System is a web application designed to help users manage
     
 3. **Database Configuration**:
 
-   You have to update ```bash src/main/resources/application.properties ``` file .
+   You have to update ``` src/main/resources/application.properties ``` file .
    Update username and password with your credentials.
 
 4. **Build the Project**:
